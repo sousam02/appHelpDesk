@@ -69,7 +69,7 @@
                 $chamadoDados = explode('#', $chamado);
 
                 if($_SESSION['perfil_id'] == 2){
-                  if($_SESSION['perfil_id'] != $chamadoDados[0]){
+                  if($_SESSION['id'] != $chamadoDados[0]){
                     continue;
                   }
                 }
